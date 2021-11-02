@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    height:250px;
+    width: 300px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-ana{
+    height: 100%;
+ 
+}
+.slide-ana div{
+    height:250px;
+    width: 300px;
+    position: absolute;
+    transition: all 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider span{
+    height: 50px;
+    position: absolute;
+    top:50%;
+    margin:-25px 0 0 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color:#fff;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.title{
+    top:80% !important;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    cursor: auto !important;
+    padding: 0 20px;
+}
+.slide-ana{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.controls {
+    display: flex;  
+    width: 100%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-around;}
+
+
+    #prev{
+        top: 50px;
+        left:0;
+    }
+    #next{
+        right:0;
+        top: 50px;
+    }
+    #prev svg,#next svg{
+        width:100%;
+       
+    }
+.logo{
+    display: flex;
+   justify-content: center;
+  text-align: center;
+
+}
+    
+    .logo__image{ 
+        height:40%;
+        width:40%;
+    }
+    
